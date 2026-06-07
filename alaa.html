@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alaa Hatem — Web Developer & Sales Specialist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas-bg"></canvas>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- NAV -->
+    <nav>
+      <div class="nav-logo">
+        <img src="LOGO_PLACEHOLDER" alt="AH Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <p class="hero-eyebrow">Egypt · AI Student · Always Leveling Up</p>
+      <h1 class="hero-name">
+        <span class="line-one">Ala'a Hatem</span><br />
+        <span class="typed-line" id="typedName"></span
+        ><span class="cursor-blink" id="typeCursor"></span>
+      </h1>
+      <p class="hero-tagline">
+        Technology College · AI Major · Web Developer · Telesales Closer.<br />
+        I build for the web, communicate across cultures, and close deals in
+        English.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker-wrap">
+      <div class="ticker">
+        <div class="ticker-item">PHP Developer</div>
+        <div class="ticker-item">MySQL</div>
+        <div class="ticker-item">Bootstrap</div>
+        <div class="ticker-item">Sales Specialist</div>
+        <div class="ticker-item">AI Tools</div>
+        <div class="ticker-item">Machine Learning</div>
+        <div class="ticker-item">Python</div>
+        <div class="ticker-item">Body Language</div>
+        <div class="ticker-item">Growth Mindset</div>
+        <div class="ticker-item">PHP Developer</div>
+        <div class="ticker-item">MySQL</div>
+        <div class="ticker-item">Bootstrap</div>
+        <div class="ticker-item">Sales Specialist</div>
+        <div class="ticker-item">AI Tools</div>
+        <div class="ticker-item">Machine Learning</div>
+        <div class="ticker-item">Python</div>
+        <div class="ticker-item">Body Language</div>
+        <div class="ticker-item">Growth Mindset</div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="story-section">
+      <div class="story-content reveal">
+        <p class="section-number">Chapter 01</p>
+        <h2 class="section-title">
+          AI Student.<br />Developer. <em>Closer.</em>
+        </h2>
+        <p class="section-body">
+          I'm a Technology College student majoring in Artificial Intelligence —
+          and I'm obsessed with leveling up across every dimension. I don't just
+          write code; I study how people think, how they communicate, and how to
+          make technology actually serve them.
+        </p>
+        <p class="section-body">
+          My foundation is PHP, MySQL, and the full frontend stack. But what
+          sets me apart is the combination: technical skills
+          <em style="font-style: normal; color: var(--gold)">plus</em> real
+          sales experience, English fluency, and an understanding of human
+          behavior that most developers never develop.
+        </p>
+        <div class="stats-row reveal reveal-delay-2">
+          <div class="stat">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">CRUD</div>
+            <div class="stat-label">Expert Systems</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">Full</div>
+            <div class="stat-label">Stack Approach</div>
+          </div>
+        </div>
+      </div>
+      <div class="story-visual reveal reveal-delay-2">
+        <div class="photo-frame">
+          <div class="photo-backdrop"></div>
+          <div class="photo-border"></div>
+          <div class="photo-border-inner"></div>
+          <img
+            class="photo-img"
+            src="./motion_photo_215907817806025218.jpg"
+            alt="Alaa Hatem"
+          />
+          <div class="photo-label">Egypt · 2026</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="story-section">
+      <div class="story-content reveal">
+        <p class="section-number">Chapter 02</p>
+        <h2 class="section-title">From Campus<br />to <em>Real Deals.</em></h2>
+        <p class="section-body">
+          It started with a game built to help a friend pass an English exam.
+          Then came CryptoLock — a full Laravel 11 school project with a working
+          fingerprint-unlock prototype. Then a telesales role at
+          <strong style="color: var(--gold); font-weight: 600">Exido</strong>,
+          closing real deals with real Americans — on the phone, in English,
+          under pressure.
+        </p>
+        <p class="section-body">
+          That experience changed everything. I learned that the best
+          communication isn't about what you say — it's about how quickly you
+          understand what the other person needs. I brought that back into every
+          line of code I write.
+        </p>
+        <div class="xp-grid reveal reveal-delay-2">
+          <div class="xp-pill">Technology College</div>
+          <div class="xp-pill">AI Major</div>
+          <div class="xp-pill">Exido Telesales</div>
+          <div class="xp-pill">English Fluency</div>
+          <div class="xp-pill">Modular PHP</div>
+          <div class="xp-pill">Form Validation</div>
+          <div class="xp-pill">GitHub</div>
+          <div class="xp-pill">Laravel 11</div>
+        </div>
+      </div>
+      <div class="story-visual reveal reveal-delay-2">
+        <div
+          style="
+            width: 320px;
+            padding: 2.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            position: relative;
+          "
+        >
+          <div
+            style="
+              font-family: &quot;DM Mono&quot;, monospace;
+              font-size: 0.7rem;
+              color: var(--gold-dim);
+              margin-bottom: 1.5rem;
+              letter-spacing: 0.1em;
+            "
+          >
+            // MY APPROACH.PHP
+          </div>
+          <div
+            style="
+              font-family: &quot;DM Mono&quot;, monospace;
+              font-size: 0.82rem;
+              line-height: 2;
+              color: var(--muted);
+            "
+          >
+            <span style="color: #c8a96e">function</span> build(<span
+              style="color: #e8e4dc"
+              >$idea</span
+            >) {<br />
+            &nbsp;&nbsp;<span style="color: #c8a96e">$plan</span> =
+            think_modular();<br />
+            &nbsp;&nbsp;<span style="color: #c8a96e">$code</span> =
+            write_clean();<br />
+            &nbsp;&nbsp;<span style="color: #c8a96e">$story</span> =
+            communicate();<br />
+            &nbsp;&nbsp;<span style="color: #c8a96e">return</span>
+            ship($plan,$code,$story);<br />
+            }<br /><br />
+            <span style="color: #6b6860">// Result: real impact.</span>
+          </div>
+          <div
+            style="
+              position: absolute;
+              top: 0;
+              right: 0;
+              width: 40px;
+              height: 40px;
+              background: var(--gold);
+              opacity: 0.1;
+            "
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="skills-header reveal">
+        <p class="section-number" style="justify-content: center">Chapter 03</p>
+        <h2 class="section-title" style="text-align: center">
+          The <em>Skillset.</em>
+        </h2>
+        <p
+          style="
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            font-family: &quot;DM Mono&quot;, monospace;
+          "
+        >
+          Click any skill to expand
+        </p>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid">
+        <div class="skill-card" data-skill="0">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">⚙️</span>
+              <div>
+                <div class="skill-name">PHP &amp; Backend</div>
+                <span class="skill-level-badge">Advanced</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              Core PHP, MySQL database design, CRUD systems, modular
+              architecture with reusable includes, server-side form validation
+              and dynamic content generation.
+            </p>
+            <div class="skill-bar-label">
+              <span>Proficiency</span><span>82%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="82"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">PHP Core</span
+              ><span class="skill-tag">MySQL</span
+              ><span class="skill-tag">CRUD</span
+              ><span class="skill-tag">Modular Architecture</span
+              ><span class="skill-tag">Laravel 11</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="1">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">🎨</span>
+              <div>
+                <div class="skill-name">Frontend Development</div>
+                <span class="skill-level-badge">Advanced</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              HTML5, CSS3, Bootstrap, and JavaScript — clean, responsive layouts
+              that look sharp and work seamlessly on every screen size and
+              device.
+            </p>
+            <div class="skill-bar-label">
+              <span>Proficiency</span><span>88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="88"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span
+              ><span class="skill-tag">CSS3</span
+              ><span class="skill-tag">Bootstrap</span
+              ><span class="skill-tag">JavaScript</span
+              ><span class="skill-tag">Responsive</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="2">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">🤖</span>
+              <div>
+                <div class="skill-name">ML &amp; Python</div>
+                <span class="skill-level-badge">Intermediate</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              Python fundamentals and machine learning concepts — data
+              pipelines, model training basics, and algorithmic thinking applied
+              to solve real-world problems.
+            </p>
+            <div class="skill-bar-label">
+              <span>Proficiency</span><span>65%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="65"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span
+              ><span class="skill-tag">ML Fundamentals</span
+              ><span class="skill-tag">Data Pipelines</span
+              ><span class="skill-tag">Algorithms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="3">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">🧠</span>
+              <div>
+                <div class="skill-name">AI Tools Pro</div>
+                <span class="skill-level-badge">Expert</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              Expert-level usage of modern AI tools — advanced prompt
+              engineering, workflow automation, and integrating AI models into
+              development and business pipelines.
+            </p>
+            <div class="skill-bar-label">
+              <span>Proficiency</span><span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Prompt Engineering</span
+              ><span class="skill-tag">AI Workflow</span
+              ><span class="skill-tag">Automation</span
+              ><span class="skill-tag">LLM Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="4">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">🗣️</span>
+              <div>
+                <div class="skill-name">Body Language</div>
+                <span class="skill-level-badge">Advanced</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              Reading rooms, commanding presence, and building trust through
+              non-verbal mastery. Essential for presentations, client meetings,
+              and team leadership situations.
+            </p>
+            <div class="skill-bar-label">
+              <span>Proficiency</span><span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Non-verbal Cues</span
+              ><span class="skill-tag">Presence</span
+              ><span class="skill-tag">Trust Building</span
+              ><span class="skill-tag">Presentation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="5">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">💼</span>
+              <div>
+                <div class="skill-name">Sales Skills</div>
+                <span class="skill-level-badge">Advanced</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              Consultative selling, objection handling, discovery calls, and
+              value-based pitching. From technical demos to closing deals — I
+              bridge dev and business fluently.
+            </p>
+            <div class="skill-bar-label">
+              <span>Proficiency</span><span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Consultative Selling</span
+              ><span class="skill-tag">Objection Handling</span
+              ><span class="skill-tag">Discovery Calls</span
+              ><span class="skill-tag">Closing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="6">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">🌱</span>
+              <div>
+                <div class="skill-name">Growth Mindset</div>
+                <span class="skill-level-badge">Core Value</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              Embracing challenges, learning from every failure, seeking honest
+              feedback, and consistently compounding skills over time. Growth
+              isn't a destination — it's a habit.
+            </p>
+            <div class="skill-bar-label">
+              <span>Commitment</span><span>95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Resilience</span
+              ><span class="skill-tag">Self-Learning</span
+              ><span class="skill-tag">Adaptability</span
+              ><span class="skill-tag">Feedback</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-skill="7">
+          <div class="skill-card-header">
+            <div class="skill-card-left">
+              <span class="skill-icon">🛠️</span>
+              <div>
+                <div class="skill-name">DevOps &amp; Tools</div>
+                <span class="skill-level-badge">Intermediate</span>
+              </div>
+            </div>
+            <div class="skill-expand-icon">+</div>
+          </div>
+          <div class="skill-body">
+            <p class="skill-desc-full">
+              GitHub version control, command line mastery, debugging workflows,
+              software installation, Windows troubleshooting, and dev
+              environment setup from scratch.
+            </p>
+            <div class="skill-bar-label">
+              <span>Proficiency</span><span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="75"></div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">GitHub</span
+              ><span class="skill-tag">CMD</span
+              ><span class="skill-tag">Debugging</span
+              ><span class="skill-tag">Windows</span
+              ><span class="skill-tag">Environment Setup</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="projects-header reveal">
+        <p class="section-number">Chapter 04</p>
+        <h2 class="section-title">The <em>Work.</em></h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-number">PROJECT — 001</div>
+          <div class="project-title">CryptoLock</div>
+          <div class="project-sub">Laravel 11 · Smart Access System</div>
+          <p class="project-desc">
+            A school training website for a smart fingerprint lock prototype.
+            Built the entire platform with a teammate — from the physical device
+            concept to the web interface. Successfully launched with a working
+            prototype.
+          </p>
+          <div class="project-tags">
+            <span class="tag">PHP</span><span class="tag">Laravel 11</span
+            ><span class="tag">MySQL</span><span class="tag">Tailwind</span
+            ><span class="tag">CRUD</span>
+          </div>
+          <a href="#" class="project-link">View Project →</a>
+        </div>
+
+        <a
+          href="https://volt-3lwa.github.io/englishTerm_game/"
+          target="_blank"
+          class="project-link"
+          ><div class="project-card reveal reveal-delay-2">
+            <div class="project-number">PROJECT — 002</div>
+            <div class="project-title">English Term Game</div>
+            <div class="project-sub">HTML · CSS · JS</div>
+            <p class="project-desc">
+              Built from scratch in first year to motivate a friend before an
+              English exam. A fully interactive game that turned studying into
+              play — responsive, clean, and shipped with love.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span><span class="tag">CSS3</span
+              ><span class="tag">JavaScript</span
+              ><span class="tag">Bootstrap</span>
+            </div>
+            View Project →
+          </div></a
+        >
+        <a
+          href="https://volt-3lwa.github.io/abdullah_tawfik/"
+          target="_blank"
+          class="project-link"
+          ><div class="project-card reveal reveal-delay-2">
+            <div class="project-number">PROJECT — 003</div>
+            <div class="project-title">Friends Protofilos</div>
+            <div class="project-sub">HTML · CSS · JS · Bootstrap</div>
+            <p class="project-desc">
+              Built from scratch in first year to make Protofilos for my friends
+              A fully interactive website that gives breifs about my friends —
+              responsive, clean, and shipped with love.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML5</span><span class="tag">CSS3</span
+              ><span class="tag">JavaScript</span
+              ><span class="tag">Bootstrap</span>
+            </div>
+            View Project →
+          </div></a
+        >
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-info">
+        <p class="section-number">Chapter 05</p>
+        <h2>Let's Build<br /><em>Something Real.</em></h2>
+        <p>
+          I'm currently looking for opportunities as a web developer or
+          sales-tech specialist. Whether you have a project, a question, or just
+          want to say hello — my inbox is open.
+        </p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📍</div>
+            Egypt — Available Remotely
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">✉️</div>
+            hatemmohamed987456@gmail.com
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">💼</div>
+            AI Student · Web Dev · Telesales Closer @ Exido
+          </div>
+        </div>
+        <div class="socials">
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/alaa-hatem-3020392a3"
+            target="_blank"
+            class="social-link"
+            title="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+              />
+            </svg>
+          </a>
+          <!-- GitHub -->
+          <a
+            href="https://github.com/volt-3lwa"
+            target="_blank"
+            class="social-link"
+            title="GitHub"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/alaaelshatoury/"
+            target="_blank"
+            class="social-link"
+            title="instagram"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-instagram"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/alaa.elshatoury/"
+            target="_blank"
+            class="social-link"
+            title="facebook"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input
+              type="text"
+              name="from_name"
+              placeholder="John Doe"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input
+              type="email"
+              name="from_email"
+              placeholder="john@example.com"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input
+            type="text"
+            name="subject"
+            placeholder="Project Collaboration / Job Opportunity"
+          />
+        </div>
+        <div class="form-group">
+          <label>Your Message</label>
+          <textarea
+            name="message"
+            placeholder="Tell me about your project or opportunity..."
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-btn" id="submitBtn">
+          Send Message →
+        </button>
+        <div class="form-status" id="formStatus"></div>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-logo"><img src="LOGO_PLACEHOLDER" alt="AH" /></div>
+      <div class="footer-copy">© 2026 Alaa Hatem. All rights reserved.</div>
+      <div class="footer-copy" style="color: var(--gold-dim)">
+        Egypt · AI Major · Web · Sales
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
